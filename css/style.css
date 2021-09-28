@@ -1,0 +1,16 @@
+:root {
+    --bs-secondary-rgb: 44,62,80;
+}
+:root {
+    --bs-success-rgb: 26,188,156;
+}
+
+:root {
+    --bs-dark-rgb: 58,84,109;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    background-color: fuchsia;
+}
