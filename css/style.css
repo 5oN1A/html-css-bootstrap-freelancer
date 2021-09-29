@@ -24,3 +24,44 @@
 .bi-list {
     color: white;
 }
+
+nav ul li a {
+    font-size: 12px;
+}
+
+nav .my-nav-btn {
+    padding: 0px 6px;
+    color: gray;
+}
+
+.line::before, .line::after, .line::before, .line::after {
+    content: "";
+    display: inline-block;
+    width: 13%;
+    height: 3px;
+    border-radius: 1px;
+    transform: translateY(-200%);
+}
+
+.line-white::before, .line-white::after{
+    background-color: white;
+}
+
+.line-black::before, .line-black::after{
+    background-color: black;
+}
+
+.bi-star-fill {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+
+.my-radius {
+    border-radius: 10px;
+}

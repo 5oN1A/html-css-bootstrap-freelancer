@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Freelancer</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Freelancer</title>
 </head>
 
 <body>
@@ -32,7 +34,7 @@
                         </li>
 
                     </ul>
-                    <a class=" text-decoration-none link-light d-md-none "><i class="fas fa-bars"></i></a>
+                    <a class="my-nav-btn btn btn-outline-light d-md-none"><i class="bi bi-justify"></i></a>
                 </div>
             </div>
         </nav>
@@ -43,15 +45,21 @@
     <!------------------HERO----------------------->
 
 
-    <section class="bg-success text-white py-5">
-        <div class="container text-center">
-            <img src="img/avatar.svg" alt="" class="w-25">
-            <h1 class="text-uppercase">start bootstrap</h1>
-            <ul class="list-inline">
-                <li class="list-inline-item">GRAPHIC ARTIST</li>
-                <li class="list-inline-item">WEB DESIGNER</li>
-                <li class="list-inline-item">ILLUSTRATOR</li>
+    <section class="bg-success text-white py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-7 col-md-4 col-lg-3 text-center">
+                    <img src="img/avatar.svg" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col text-center">
+            <h1 class="text-uppercase fw-bolder display-4 pt-4">start bootstrap</h1>
+            <div class="line line-white"><i class="bi bi-star-fill px-4"></i></div>
+            <div class="fs-5 text-uppercase py-2">graphic artist - web designer - illustrator</div>
             </ul>
+        </div>
+    </div>
         </div>
     </section>
 
@@ -59,15 +67,17 @@
     <!------------------PORTFOLIO----------------------->
 
     <section class="bg-white text-black">
-        <div class="container text-center">
+        <div class="container text-center pb-5">
             <h2 class="text-uppercase">portfolio</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col"> <img class="card-img-top" src="img/cabin.png" alt=""></div>
-                <div class="col"><img class="card-img-top" src="img/cake.png" alt=""></div>
-                <div class="col"><img class="card-img-top" src="img/circus.png" alt=""></div>
-                <div class="col"><img class="card-img-top" src="img/game.png" alt=""></div>
-                <div class="col"><img class="card-img-top" src="img/safe.png" alt=""></div>
-                <div class="col"><img class="card-img-top" src="img/submarine.png" alt=""></div>
+            <div class="line line-black"><i class="bi bi-star-fill px-4"></i></div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 pt-3">
+                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/cabin.png" alt=""></div></div>
+                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/cake.png" alt=""></div></div>
+                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/circus.png" alt=""></div></div>
+                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/game.png" alt=""></div></div>
+                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/safe.png" alt=""></div></div>
+                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/submarine.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -78,15 +88,25 @@
     <section class="bg-success text-white">
         <div class="container text-center">
             <h2 class="text-uppercase">about</h2>
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="col text-start">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nemo neque libero quo distinctio alias quia, atque mollitia repellat laborum iste animi dolore aliquam dolores nesciunt nihil ducimus perferendis ipsam nulla. Voluptate illo aliquam impedit.
+            <div class="line line-white"><i class="bi bi-star-fill px-4"></i></div>
+            <div class="row row-cols-1 row-cols-md-2 pt-3">
+                <div class="col-10 text-start">
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias
+                    nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste minus
+                    blanditiis ea nisi accusamus recusandae!
+                    </p>
                 </div>
                 <div class="col text-start">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste minus blanditiis ea nisi consequuntur ducimus nobis facilis corrupti, accusamus recusandae!
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias
+                    nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste minus
+                    blanditiis ea nisi.
+                    </p>
                 </div>
             </div>
-            <button type="button" class=" btn btn-outline-primary">Download</button>
+            <button type="button" class=" btn btn-outline-success mt-4"><i class="fas fa-download"></i>
+                Download</button>
         </div>
     </section>
 
