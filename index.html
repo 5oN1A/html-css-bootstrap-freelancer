@@ -20,7 +20,7 @@
 
 
     <header class="container-fluid bg-secondary text-white">
-        <nav class="py-3">
+        <nav class="py-4">
             <div class="container d-flex align-items-center">
                 <div class="title fw-bold text-uppercase">
                     start bootstrap
@@ -54,12 +54,12 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col text-center">
-            <h1 class="text-uppercase fw-bolder display-4 pt-4">start bootstrap</h1>
-            <div class="line line-white"><i class="bi bi-star-fill px-4"></i></div>
-            <div class="fs-5 text-uppercase py-2">graphic artist - web designer - illustrator</div>
-            </ul>
-        </div>
-    </div>
+                    <h1 class="text-uppercase fw-bolder display-4 pt-4">start bootstrap</h1>
+                    <div class="line line-white"><i class="bi bi-star-fill px-4"></i></div>
+                    <div class="fs-5 text-uppercase py-2">graphic artist - web designer - illustrator</div>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -72,14 +72,25 @@
             <div class="line line-black"><i class="bi bi-star-fill px-4"></i></div>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 pt-3">
-                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/cabin.png" alt=""></div></div>
-                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/cake.png" alt=""></div></div>
-                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/circus.png" alt=""></div></div>
-                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/game.png" alt=""></div></div>
-                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/safe.png" alt=""></div></div>
-                <div class="col"><div class=""><img class="card-img-top my-radius" src="img/submarine.png" alt=""></div>
+                <div class="col">
+                    <div class=""><img class="card-img-top my-radius" src="img/cabin.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class=""><img class="card-img-top my-radius" src="img/cake.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class=""><img class="card-img-top my-radius" src="img/circus.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class=""><img class="card-img-top my-radius" src="img/game.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class=""><img class="card-img-top my-radius" src="img/safe.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class=""><img class="card-img-top my-radius" src="img/submarine.png" alt=""></div>
+                </div>
             </div>
-        </div>
     </section>
 
     <!------------------ABOUT----------------------->
@@ -89,24 +100,25 @@
         <div class="container text-center">
             <h2 class="text-uppercase">about</h2>
             <div class="line line-white"><i class="bi bi-star-fill px-4"></i></div>
-            <div class="row row-cols-1 row-cols-md-2 pt-3">
-                <div class="col-10 text-start">
+            <div class="row justify-content-center pt-3">
+                <div class="col-8 col-md-5 text-start">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias
-                    nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste minus
-                    blanditiis ea nisi accusamus recusandae!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias
+                        nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste
+                        minus
+                        blanditiis ea nisi accusamus recusandae!
                     </p>
                 </div>
-                <div class="col text-start">
+                <div class="col-8 col-md-5 text-start">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias
-                    nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste minus
-                    blanditiis ea nisi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore itaque quibusdam alias
+                        nisi distinctio assumenda, maiores incidunt, commodi ratione architecto corporis! Ipsam iste
+                        minus
+                        blanditiis ea nisi.
                     </p>
                 </div>
             </div>
-            <button type="button" class=" btn btn-outline-success mt-4"><i class="fas fa-download"></i>
-                Download</button>
+            <button type="button" class=" btn btn-outline-light my-4"><i class="fas fa-download"></i>Download</button>
         </div>
     </section>
 
@@ -114,9 +126,31 @@
 
 
     <section class="bg-white text-black">
-        <div class="container text-center">
-            <h2 class="text-uppercase text-center">contact me</h2>
-            <form action="" class="my-bg"></form>
+        <div class="container text-center pb-5">
+            <h2 class="text-uppercase">contact me</h2>
+            <div class="line line-black"><i class="bi bi-star-fill px-4"></i></div>
+            <div class="row justify-content-center">
+                <div class="col-8 col-lg-10">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control my-form-borders" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control my-form-borders" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control my-form-borders" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control my-form-borders" placeholder="Message" rows="3"
+                                style="height: 150px;"></textarea>
+                        </div>
+                        <div class="text-start">
+                            <button type="button" class="btn btn-secondary my-btn-style">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -124,11 +158,48 @@
 
 
     <section class="bg-dark text-white">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col my-bg"></div>
-                <div class="col my-bg"></div>
-                <div class="col my-bg"></div>
+        <div class="container py-5">
+            <div class="row justify-content-center align-items-center row-cols-1 row-cols-md-3 text-center">
+                <div class="col">
+                    <div class="py-2">
+                        <h4>LOCATION</h4>
+                        <p class="my-fs">2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="py-3">
+                        <h4>AROUND THE WEB</h4>
+                        <ul class="list-inline mb-0 d-md-block">
+                            <li class="list-inline-item">
+                                <a class="text-decoration-none link-light" href="">
+                                    <i class="circle-icon fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-decoration-none link-light" href="">
+                                    <i class="circle-icon fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-decoration-none link-light" href="">
+                                    <i class="circle-icon fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-decoration-none link-light" href="">
+                                    <i class="circle-icon fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="py-3">
+                    <h4>ABOUT FREELANCER</h4>
+                    <p class="my-fs">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap
+                    </p>
+                </div>
+            </div>
             </div>
         </div>
     </section>
@@ -137,10 +208,11 @@
 
 
     <footer class="bg-secondary text-white">
-        <div class="container ">
-            <div class="row">
-                <div class="col my-bg"></div>
+        <div class="container">
+            <div class="text-center py-5">
+                Copyright @ Your Website 2019
             </div>
+        </div>
         </div>
     </footer>
 
